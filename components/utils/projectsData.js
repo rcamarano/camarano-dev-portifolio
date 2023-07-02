@@ -32,7 +32,7 @@ const projectsData = [
     {
         id: 5,
         title: "Jogo de trivia",
-        description: "Jogo de trivia desenvolvido em grupo durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, ContextAPI, Hooks, React Testing Library, Jest, Git, GitHub, NodeJS, Express, MongoDB, MySQL, Sequelize, JWT, Socket.io, WebSockets, AWS, Heroku, entre outras tecnologias. O jogo consiste em um quiz de perguntas e respostas, com ranking de pontuação e possibilidade de criar salas para jogar com amigos. O projeto foi desenvolvido em grupo, com a colaboração de 5 pessoas.",
+        description: "Jogo de trivia desenvolvido em grupo durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, ContextAPI, Hooks, React Testing Library, Jest, Git, GitHub, NodeJS, Express, MongoDB, MySQL, Sequelize, JWT, Socket.io, WebSockets, AWS, Heroku, entre outras tecnologias. O jogo consiste em um quiz de perguntas e respostas, com ranking de pontuação e possibilidade de criar salas para jogar com amigos. O projeto foi desenvolvido em grupo, com a colaboração de 5 pessoas. CSS by @Franciellem Dias",
         thumbnail: "/videos/trivia.mp4",
         url: "https://www.projeto2.com",
     },
