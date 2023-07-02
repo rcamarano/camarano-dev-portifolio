@@ -1,0 +1,330 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-responsive-carousel/lib/styles/carousel.min.css';
+@import 'swiper/swiper-bundle.css';
+
+
+.container-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-centered {
+  justify-content: center;
+  margin-bottom: 50px;
+  /* max-height: 150px; */
+}
+
+.project-content {
+  justify-content: center;
+  max-width: 300px;
+  max-height: 100px;
+  margin-bottom: 50px;
+  margin-top: 30px
+}
+
+.video-thumbnail {
+  width: 150px;
+  height: auto;
+  /* Outros estilos para o vídeo */
+}
+
+.project-column {
+  max-width: 33.33%;
+  margin-bottom: 50px;
+}
+
+.custom-carousel .slider-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.custom-carousel .slider-wrapper img {
+  height: 100%;
+  object-fit: cover;
+  width: auto;
+}
+
+/* Estilos para telas pequenas */
+@media (max-width: 640px) {
+  .text-center {
+    text-align: center;
+  }
+
+  .text-5xl {
+    font-size: 3rem;
+  }
+
+  .text-7xl {
+    font-size: 5rem;
+  }
+
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+
+  .block {
+    display: block;
+  }
+
+  .text-white {
+    color: #ffffff;
+  }
+
+  .text-orange-400 {
+    color: #fb923c;
+  }
+
+  .hover\:bg-orange-100:hover {
+    background-color: #ffedcc;
+  }
+
+  .max-w-xs {
+    max-width: 20rem;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:max-w-none {
+    max-width: none;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
+  .rounded-md {
+    border-radius: 0.375rem;
+  }
+
+  .border {
+    border-width: 1px;
+  }
+
+  .bg-white {
+    background-color: #ffffff;
+  }
+
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .text-base {
+    font-size: 1rem;
+  }
+
+  .font-medium {
+    font-weight: 500;
+  }
+
+  .hover\:bg-orange-100:hover {
+    background-color: #ffedcc;
+  }
+
+  .custom-carousel .slider-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-carousel .slider-wrapper img {
+    height: 75vh;
+    object-fit: cover;
+    width: auto;
+  }
+}
+
+/* Estilos para telas médias e grandes */
+@media (min-width: 641px) {
+  .relative {
+    position: relative;
+  }
+
+  .absolute {
+    position: absolute;
+  }
+
+  .inset-x-0 {
+    inset: 0;
+  }
+
+  .bottom-0 {
+    bottom: 0;
+  }
+
+  .h-1\/2 {
+    height: 50%;
+  }
+
+  .bg-gray-100 {
+    background-color: #f7fafc;
+  }
+
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .shadow-xl {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .sm\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .bg-orange-100 {
+    background-color: #ffedcc;
+  }
+
+  .mix-blend-multiply {
+    mix-blend-mode: multiply;
+  }
+
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .text-xl {
+    font-size: 1.25rem;
+  }
+
+  .font-semibold {
+    font-weight: 600;
+  }
+
+  .tracking-wide {
+    letter-spacing: 0.05em;
+  }
+
+  .text-gray-900 {
+    color: #111827;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .text-5xl {
+    font-size: 3rem;
+  }
+
+  .lg\:text-7xl {
+    font-size: 5rem;
+  }
+
+  .text-shadow {
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+  }
+
+  .block {
+    display: block;
+  }
+
+  .text-white {
+    color: #ffffff;
+  }
+
+  .text-orange-400 {
+    color: #fb923c;
+  }
+
+  .hover\:bg-orange-100:hover {
+    background-color: #ffedcc;
+  }
+
+  .max-w-xs {
+    max-width: 20rem;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:max-w-none {
+    max-width: none;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
+  }
+
+  .rounded-md {
+    border-radius: 0.375rem;
+  }
+
+  .border {
+    border-width: 1px;
+  }
+
+  .bg-white {
+    background-color: #ffffff;
+  }
+
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .text-base {
+    font-size: 1rem;
+  }
+
+  .font-medium {
+    font-weight: 500;
+  }
+
+  .hover\:bg-orange-100:hover {
+    background-color: #ffedcc;
+  }
+
+  .custom-carousel .slider-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-carousel .slider-wrapper img {
+    height: 100vh;
+    object-fit: cover;
+    width: auto;
+  }
+}

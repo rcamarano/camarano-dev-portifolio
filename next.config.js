@@ -1,4 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+module.exports = {
+  reactStrictMode: true,
+  images: {
+    domains: ['zzte-003.dx.commercecloud.salesforce.com'],
+  },
+}
