@@ -13,8 +13,8 @@ export default function AboutMe() {
                             alt="Rogério Camarano, fullstack DEV, html, css, javascript, typescript, node.js, React, Next, Tailwind, MySql, Python."
                         />
                     </div>
-                    <div className="md:w-2/3 md:ml-10">
-                        <h2 className="text-2xl font-bold text-white mx-5 mb-4">About me:</h2>
+                    <div className="container md:w-2/3 md:ml-10">
+                        <h2 className="text-2xl font-bold text-white mx-2 mb-4">About me:</h2>
                         <p className="text-white mx-5 text-md">
                             Olá, sou Rogério, pai de duas meninas incríveis, casado pela segunda vez com minha cara metade. Sou apaixonado por tecnologia e inovação. Nos meus momentos livres gosto de passar tempo com aminha família, meus pets, estudar sobre tecnologia e fazer um som com a minha banda
                             <br />
@@ -30,9 +30,9 @@ export default function AboutMe() {
                             <br />
                             R
                         </p>
-                        <div className="flex justify-center mt-6">
+                        <div className="flex justify-center icons mt-6 mb-5 mx-5 md:mx-5">
                             <a href="mailto:rogeriocamarano@gmail.com" target="_blank" rel="noopener noreferrer" className="center text-white hover:text-orange-700 mx-5 mr-4 md:mr-8">
-                                <div className="flex flex-col items-center">
+                                <div className="flex flex-col items-center mb-5">
                                     <FaEnvelope size={48} />
                                     <p className="mt-2">email me</p>
                                 </div>
@@ -40,7 +40,7 @@ export default function AboutMe() {
 
                             <a href="https://api.whatsapp.com/send?phone=5511981873686&text=Oi%2C+gostaria+de+agendar+uma+sess%C3%A3o+de+Bioconex%C3%A3o" target="_blank" rel="noopener noreferrer"
                                 className="text-white hover:text-orange-700 mr-4 md:mr-8">
-                                <div className="flex flex-col items-center">
+                                <div className="flex flex-col items-center mb-5">
                                     <FaWhatsapp size={48} />
                                     <p className="mt-2">whatsapp</p>
                                 </div>
@@ -50,7 +50,7 @@ export default function AboutMe() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-white hover:text-orange-700 mr-4 md:mr-8">
-                                <div className="flex flex-col items-center">
+                                <div className="flex flex-col items-center mb-5">
                                     <FaGithub size={48} />
                                     <p className="mt-2">github</p>
                                 </div>
@@ -60,7 +60,7 @@ export default function AboutMe() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-white hover:text-orange-700 mr-4 md:mr-8">
-                                <div className="flex flex-col items-center">
+                                <div className="flex flex-col items-center mb-5">
                                     <FaLinkedin size={48} />
                                     <p className="mt-2">linkedin</p>
                                 </div>
@@ -71,7 +71,7 @@ export default function AboutMe() {
                                 download="nome-do-arquivo.pdf"
                                 className="text-white hover:text-orange-700 mr-4 md:mr-8"
                             >
-                                <div className="flex flex-col items-center">
+                                <div className="flex flex-col items-center mb-5">
                                     <FaCloudDownloadAlt size={48} />
                                     <p className="mt-2">download cv</p>
                                 </div>

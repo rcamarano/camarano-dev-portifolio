@@ -49,6 +49,15 @@
   width: auto;
 }
 
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
 /* Estilos para telas pequenas */
 @media (max-width: 640px) {
   .text-center {
@@ -142,6 +151,17 @@
     height: 75vh;
     object-fit: cover;
     width: auto;
+  }
+
+  .container {
+    width: 90%;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
   }
 }
 
