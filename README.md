@@ -1,31 +1,15 @@
-# Example Next.js app with Salesforce Commerce Cloud
+# Next.js app personal DEV Portifolio
 
-This example shows how to create a headless ecommerce application using Next.js, [Salesforce commerce cloud](https://www.salesforce.com/products/commerce-cloud/overview/), and [Tailwind](https://tailwindcss.com).
+Esse repositório é composto pelos arquivos de uma aplicaç˜åo construída em React, utilizando as bibliotecas Next e Tailwind. Vissite o link para ver o deploy(https://camarano-dev-portifolio.vercel.app).
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or view the demo [here](https://salesforce-cloud-commerce.vercel.app/)
+Utilizando a plataforma Vercel para excutar o deploy e tornar o projeto acessível para visitas.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-sfcc&project-name=with-sfcc&repository-name=with-sfcc&env=SFDC_CLIENT_ID,SFDC_SECRET,SFDC_ORGANIZATIONID,SFDC_SHORTCODE,SFDC_SITEID&envDescription=API%20Keys%20from%20SFCC%20needed%20to%20run%20this%20application.)
+Montei esse projeto para divulgar meus conhecimentos em desenvolvimento ewd frontend e backend durante minha formação em desenvolviento web full stack na Trybe.
+No link acima eu apresento alguns projetos realizados durante o curso e também projetos produzidos para clientes que me procuraram para prestar esse serviço como free lancer.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Mesmo esse projeto sendo meu portifolio pessoal de desenvolvedor web está aberto a sugestões para melhorias e colaborações. Vou adorar receber seus inputs e trocar experiências.
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example::
-
-```bash
- npx create-next-app --example with-sfcc nextjs-sfcc-app
-```
-
-```bash
-yarn create next-app --example with-sfcc nextjs-sfcc-app
-```
-
-```bash
-pnpm create next-app --example with-sfcc nextjs-sfcc-app
-```
-
-## References
-
-- SDK: https://github.com/SalesforceCommerceCloud/commerce-sdk
+# Estou disponível para trabalho e em busca de novas oportunidades de crescimento e desenvolvimento pessoal e profissional. Entre em contato comigo.
+Até já!
