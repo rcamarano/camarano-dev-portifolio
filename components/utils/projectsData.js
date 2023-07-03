@@ -20,7 +20,7 @@ const projectsData = [
         title: "Shopping Cart",
         description: "Shopping Cart foi desenvolvido durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, ContextAPI, Hooks, RTL, Jest, Git, GitHub, NodeJS, entre outras tecnologias. O projeto consiste em uma página de carrinho de compras, com possibilidade de adicionar e remover produtos, bem como alterar a quantidade de cada produto.",
         thumbnail: "/videos/shopCart.mp4",
-        url: "https://github.com/rcamarano/TrybeWarts",
+        url: "https://github.com/rcamarano/shopping-cart-project",
     },
     {
         id: 4,
