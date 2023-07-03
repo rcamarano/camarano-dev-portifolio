@@ -13,7 +13,7 @@ const projectsData = [
         title: "TrybeWarts",
         description: "Página de formulário de cadastro de alunos de Hogwarts. Projeto desenvolvido em dupla durante o curso de Desenvolvimento Web da Trybe. Utilizando  majoritariamente HTML, CSS e JavaScript. O projeto consiste em uma página de formulário de cadastro de alunos de Hogwarts, com possibilidade de adicionar e remover alunos, bem como alterar a quantidade de cada produto.",
         thumbnail: "/videos/trybewarts.mp4",
-        url: "https://www.projeto2.com",
+        url: "https://github.com/rcamarano/TrybeWarts",
     },
     {
         id: 3,
@@ -27,14 +27,14 @@ const projectsData = [
         title: "Solar System",
         description: "Solar System Project foi desenvolvido durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, ContextAPI, Hooks, React Testing Library, Jest, Git, GitHub, NodeJS, Express, MongoDB, MySQL, Sequelize, JWT, Socket.io, WebSockets, AWS, Heroku, entre outras tecnologias. O projeto consiste em uma página de informações sobre o sistema solar, com possibilidade de adicionar planetas aos favoritos e visualizar mais informações sobre cada um deles.",
         thumbnail: "/videos/solarSystem.mp4",
-        url: "https://github.com/rcamarano/TrybeWarts",
+        url: "https://github.com/rcamarano/solar-system-project",
     },
     {
         id: 5,
         title: "Jogo de trivia",
         description: "Jogo de trivia desenvolvido em grupo durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, ContextAPI, Hooks, React Testing Library, Jest, Git, GitHub, NodeJS, Express, MongoDB, MySQL, Sequelize, JWT, Socket.io, WebSockets, AWS, Heroku, entre outras tecnologias. O jogo consiste em um quiz de perguntas e respostas, com ranking de pontuação e possibilidade de criar salas para jogar com amigos. O projeto foi desenvolvido em grupo, com a colaboração de 5 pessoas. CSS by @Franciellem Dias",
         thumbnail: "/videos/trivia.mp4",
-        url: "https://www.projeto2.com",
+        url: "https://github.com/rcamarano/trivia-game",
     },
     {
         id: 6,
@@ -48,21 +48,21 @@ const projectsData = [
         title: "Blogs API",
         description: "Blogs API foi desenvolvido durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, ContextAPI, Hooks, React Testing Library, Jest, Git, GitHub, NodeJS, Express, MongoDB, MySQL, Sequelize, JWT entre outras tecnologias. O projeto consiste em uma API de blogs, com possibilidade de criar, editar, deletar e visualizar blogs, bem como adicionar, editar e deletar posts e comentários.",
         thumbnail: "/videos/blogsAPI.mp4",
-        url: "https://www.projeto2.com",
+        url: "https://github.com/rcamarano/blogs-api",
     },
     {
         id: 8,
         title: "Trybers and Dragons",
-        description: "Trybers and Dragons foi desenvolvido durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, ContextAPI, Hooks, React Testing Library, Jest, Git, GitHub, NodeJS, Express, MongoDB, MySQL, Sequelize, JWT, Socket.io, WebSockets, AWS, Heroku, entre outras tecnologias. O projeto consiste em um jogo de RPG, com possibilidade de criar personagens, adicionar itens e armas, e jogar com amigos. ",
+        description: "Trybers and Dragons foi desenvolvido durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, ContextAPI, Hooks, React Testing Library, Jest, Git, GitHub, NodeJS, Express, MongoDB, MySQL, Sequelize, JWT, Socket.io, WebSockets, AWS, Heroku, entre outras tecnologias. O projeto consiste em um jogo de RPG, com possibilidade de criar personagens, adicionar itens e armas, e jogar com amigos.",
         thumbnail: "/videos/ted.mp4",
-        url: "https://www.projeto2.com",
+        url: "https://github.com/rcamarano/trybers-and-dragons",
     },
     {
         id: 9,
         title: "TFC - Trybe Futebol Clube",
         description: "TFC - Trybe Futebol Clube foi desenvolvido durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, ContextAPI, Hooks, React Testing Library, Jest, Git, GitHub, NodeJS, Express, MongoDB, MySQL, Sequelize, JWT, Socket.io, WebSockets, AWS, Heroku, entre outras tecnologias. O projeto consiste em um site de gerenciamento de times de futebol, com possibilidade de criar times, adicionar partidas, acompanhar partidas em andamento, partidas finalizadas e também o placar e a tabela de pintuação de cada time.",
         thumbnail: "/videos/tfc.mp4",
-        url: "https://www.projeto2.com",
+        url: "https://github.com/rcamarano/projeto-trybe-futebol-clube",
     },
     // Adicione mais objetos de projeto conforme necessário
 ];
