@@ -16,12 +16,12 @@ export default function AboutMe() {
                     <div className="container md:w-2/3 md:ml-10">
                         <h2 className="text-2xl font-bold text-white mx-2 mb-4">About me:</h2>
                         <p className="text-white mx-5 text-md">
-                            Olá, sou Rogério, pai de duas meninas incríveis, casado pela segunda vez com minha cara metade. Sou apaixonado por tecnologia e inovação. Nos meus momentos livres gosto de passar tempo com aminha família, meus pets, estudar sobre tecnologia e fazer um som com a minha banda
+                            Olá, sou Rogério, pai de duas meninas incríveis, casado pela segunda vez com minha cara metade. Sou apaixonado por tecnologia e inovação. Nos meus momentos livres gosto de passar tempo com a minha família, meus pets, estudar sobre tecnologia e fazer um som com a minha banda.
                             <br />
                             <br />
                             Sou apaixonado por tecnologia e por pessoas. Sei que são as pessoas que fazem a diferença no final do dia de qualquer ambiente de trabalho, projeto ou contrato. Levando isso em consideração, sou um desenvolvedor full stack com uma formação anterior em comunicação. Ou seja, consigo unir o melhor dos dois mundos:
-                            - A técnica para desenvolver aplicações funcionais usando html, css, JS, TS, React, Node.JS, MySql, Sequelize, express e afins;
-                            - A gestão das pessoas envolvidas no meu ambiente de de trabalho promovendo a empatia e a colaboração.
+                            - A técnica para desenvolver aplicações funcionais usando HTML, CSS, JS, TS, React, Node.JS, MySql, Sequelize, Express e afins;
+                            - A gestão das pessoas envolvidas no meu ambiente de trabalho promovendo a empatia e a colaboração.
                             <br />
                             <br />
                             Estou disponível para trabalho e em busca de novas oportunidades de crescimento e desenvolvimento pessoal e profissional.  Entre em contato comigo.

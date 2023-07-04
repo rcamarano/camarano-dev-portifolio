@@ -11,7 +11,7 @@ export default function Header({ scrollHandler }) {
   };
 
   return (
-    <header className="relative">
+    <header id="carroussel" className="relative">
       <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
       <div className="mx-auto">
         <div className="relative shadow-xl sm:overflow-hidden">
