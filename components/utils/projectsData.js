@@ -25,14 +25,14 @@ const projectsData = [
     {
         id: 4,
         title: "Solar System",
-        description: "Solar System Project foi desenvolvido durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, ContextAPI, Hooks, React Testing Library, Jest, Git, GitHub, NodeJS, Express, MySQL, Sequelize, JWT entre outras tecnologias. O projeto consiste em uma página de informações sobre o sistema solar, com possibilidade de adicionar planetas aos favoritos e visualizar mais informações sobre cada um deles.",
+        description: "Solar System Project foi desenvolvido durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, API Rest, React Testing Library, Jest, Git, GitHub, NodeJS, entre outras tecnologias. O projeto consiste em uma página de informações sobre o sistema solar, com possibilidade de adicionar planetas aos favoritos e visualizar mais informações sobre cada um deles.",
         thumbnail: "/videos/solarSystem.mp4",
         url: "https://github.com/rcamarano/solar-system-project",
     },
     {
         id: 5,
         title: "Jogo de trivia",
-        description: "Jogo de trivia desenvolvido em grupo durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, ContextAPI, Hooks, React Testing Library, Jest, Git, GitHub, NodeJS entre outras tecnologias. O jogo consiste em um quiz de perguntas e respostas, com ranking de pontuação e classificação de outros jogadores. O projeto foi desenvolvido em grupo, com a colaboração de 4 pessoas. CSS by @Franciellem Dias",
+        description: "Jogo de trivia desenvolvido em grupo durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, API Rest, React Testing Library, Jest, Git, GitHub, NodeJS entre outras tecnologias. O jogo consiste em um quiz de perguntas e respostas, com ranking de pontuação e classificação de outros jogadores. O projeto foi desenvolvido em grupo, com a colaboração de 4 pessoas. CSS by @Franciellem Dias",
         thumbnail: "/videos/trivia.mp4",
         url: "https://github.com/rcamarano/trivia-game",
     },
@@ -46,7 +46,7 @@ const projectsData = [
     {
         id: 7,
         title: "Blogs API",
-        description: "Blogs API foi desenvolvido durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, ContextAPI, Hooks, React Testing Library, Jest, Git, GitHub, NodeJS, Express, MySQL, Sequelize, JWT entre outras tecnologias. O projeto consiste em uma API de blogs, com possibilidade de criar, editar, deletar e visualizar blogs, bem como adicionar, editar e deletar posts e comentários.",
+        description: "Blogs API foi desenvolvido durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, API Rest, React Testing Library, Jest, Git, GitHub, NodeJS, Express, MySQL, Sequelize, JWT entre outras tecnologias. O projeto consiste em uma API de blogs, com possibilidade de criar, editar, deletar e visualizar blogs, bem como adicionar, editar e deletar posts e comentários.",
         thumbnail: "/videos/blogsAPI.mp4",
         url: "https://github.com/rcamarano/blogs-api",
     },
@@ -60,7 +60,7 @@ const projectsData = [
     {
         id: 9,
         title: "TFC - Trybe Futebol Clube",
-        description: "TFC - Trybe Futebol Clube foi desenvolvido durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, Redux, ContextAPI, Hooks, React Testing Library, Jest, Git, GitHub, NodeJS, Express, MySQL, Sequelize, JWT,  entre outras tecnologias. O projeto consiste em um site de gerenciamento de times de futebol, com possibilidade de criar times, adicionar partidas, acompanhar partidas em andamento, partidas finalizadas e também o placar e a tabela de pintuação de cada time.",
+        description: "TFC - Trybe Futebol Clube foi desenvolvido durante o curso de Desenvolvimento Web da Trybe. Utilizando HTML, CSS, JavaScript, React, React Testing Library, Jest, Git, GitHub, NodeJS, Express, MySQL, Sequelize, JWT,  entre outras tecnologias. O projeto consiste em um site de gerenciamento de times de futebol, com possibilidade de criar times, adicionar partidas, acompanhar partidas em andamento, partidas finalizadas e também o placar e a tabela de pintuação de cada time.",
         thumbnail: "/videos/tfc.mp4",
         url: "https://github.com/rcamarano/projeto-trybe-futebol-clube",
     },
