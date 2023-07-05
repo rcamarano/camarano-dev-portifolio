@@ -30,7 +30,7 @@ export default function AboutMe() {
                             <br />
                             R
                         </p>
-                        <div className="flex justify-center icons mt-6 mb-5 mx-5 md:mx-5">
+                        <div className="flex justify-left icons mt-6 mb-5 mx-5 md:mx-5">
                             <a href="mailto:rogeriocamarano@gmail.com" target="_blank" rel="noopener noreferrer" className="center text-white hover:text-orange-700 mx-5 mr-4 md:mr-8">
                                 <div className="flex flex-col items-center mb-5">
                                     <FaEnvelope size={48} />
@@ -66,7 +66,7 @@ export default function AboutMe() {
                                 </div>
 
                             </a>
-                            <a
+                            {/* <a
                                 href="../docs/CV-Camarano-DEV.pdf"
                                 download="nome-do-arquivo.pdf"
                                 className="text-white hover:text-orange-700 mr-4 md:mr-8"
@@ -75,7 +75,7 @@ export default function AboutMe() {
                                     <FaCloudDownloadAlt size={48} />
                                     <p className="mt-2">download cv</p>
                                 </div>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
