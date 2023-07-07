@@ -47,7 +47,7 @@ export default function Gallery({ data }) {
         </Row>
       </Container>
       <div id="about-section" className="about-me-section">
-        <AboutMe />
+        <AboutMe  scrollHandler={scrollHandler}/>
       </div>
     </>
   );

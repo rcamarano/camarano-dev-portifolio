@@ -1,18 +1,23 @@
 import React from 'react';
 import { useRef } from 'react';
-// import { Link } from 'react-scroll';
+import { Link } from 'react-scroll';
 import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp, FaLink, FaCloudDownloadAlt } from 'react-icons/fa';
 
-export default function AboutMe() {
+export default function AboutMe({ scrollHandler }) {
     const headerRef = useRef(null);
+
+    const handleButtonClick = () => {
+        scrollHandler();
+    };
     return (
         <div id="about-section" className="about-me-section bg-orange-500 py-10">
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row items-center">
-                    <div className="md:w-1/3">
-                        <a href="#top">
+                    <div>
+                        <a href="#top" onClick={handleButtonClick}>
                             <img
                                 className="rounded-full h-300 object-cover mx-auto mb-6 opacity-90 hover:opacity-100 border-2 border-white shadow-lg w-80"
+                                onClick={handleButtonClick}
                                 src="/images/profilePicture.jpg"
                                 alt="Rogério Camarano, fullstack DEV, html, css, javascript, typescript, node.js, React, Next, Tailwind, MySql, Python."
                             />
@@ -85,6 +90,7 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
+            <div ref={headerRef} id="carroussel" />
         </div>
     );
 }

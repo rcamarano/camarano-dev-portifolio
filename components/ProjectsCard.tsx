@@ -25,9 +25,8 @@ export default function ProjectsCard({ project }) {
 
     return (
         <Link onClick={handleButtonClick} href={''}>
-            <div className={`aspect-w-16 aspect-h-10 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-16 xl:aspect-h-10 opacity-90 hover:opacity-100 border-2 border-gray-300 shadow-lg ${
-          isHovered ? 'scale-110' : ''
-        } transition-transform duration-300`}
+            <div className={`aspect-w-16 aspect-h-10 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-16 xl:aspect-h-10 opacity-90 hover:opacity-100 border-2 border-gray-300 shadow-lg ${isHovered ? 'scale-110' : ''
+                } transition-transform duration-300`}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}>
                 <video
