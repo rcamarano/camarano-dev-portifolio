@@ -33,6 +33,18 @@
   /* Outros estilos para o vídeo */
 }
 
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 48px;
+  cursor: pointer;
+}
+
 .project-column {
   max-width: 33.33%;
   margin-bottom: 50px;

@@ -1,6 +1,7 @@
 // ProjectsCard.js
 import React from 'react';
 import { useRef, useState } from 'react';
+import { FaPlay } from 'react-icons/fa';
 import Link from 'next/link';
 
 export default function ProjectsCard({ project }) {
@@ -29,16 +30,19 @@ export default function ProjectsCard({ project }) {
                 } transition-transform duration-300`}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}>
+                <button className="play-button" onClick={handleMouseEnter}>
+                    <FaPlay />
+                </button>
                 <video
                     ref={videoRef}
                     className="object-cover"
-                    autoPlay={isHovered}
                     loop
                     muted
                     playsInline
                 >
                     <source src={project.thumbnail} type="video/mp4" />
                 </video>
+
 
             </div>
 
