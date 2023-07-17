@@ -39,7 +39,7 @@ const projectsData = [
     {
         id: 6,
         title: "Climatéricas",
-        description: "Projeto desenvolvido para a Dra. em Fisioterapia e Saúde da Mulher Giovana Faria. Utilizando HTML, CSS, JavaScript, React, entre outras tecnologias. Site estilo Onepage, com formulário de contato para captura de leads e divulgação dos principais serviços da Dra. Giovana, bem como sua localização e canais de contato de mídias sociais. Além de divulgar o seu trabalho site disponibiliza o download gratito de um mini-planner para preparação  e organização de metas para mudança de estilo de vida e melhoria da saúde da mulher 35+.",
+        description: "Projeto desenvolvido para a Dra. em Fisioterapia e Saúde da Mulher Giovana Faria. Utilizando HTML, CSS, JavaScript, React, entre outras tecnologias. Site estilo Onepage, com formulário de contato para captura de leads e divulgação dos principais serviços da Dra. Giovana, bem como sua localização e canais de contato de mídias sociais. Além de divulgar o seu trabalho site disponibiliza o download gratuito de um mini-planner para preparação  e organização de metas para mudança de estilo de vida e melhoria da saúde da mulher 35+.",
         thumbnail: "/videos/climatericas.mp4",
         url: "http://www.camarano.net/climatericas/#",
     },

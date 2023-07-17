@@ -48,7 +48,7 @@ export default function AboutMe({ scrollHandler }) {
                                 </div>
                             </a>
 
-                            <a href="https://api.whatsapp.com/send?phone=5511981873686&text=Oi%2C+gostaria+de+agendar+uma+sess%C3%A3o+de+Bioconex%C3%A3o" target="_blank" rel="noopener noreferrer"
+                            <a href="https://api.whatsapp.com/send?phone=5511981873686" target="_blank" rel="noopener noreferrer"
                                 className="text-white hover:text-orange-700 mr-4 md:mr-8">
                                 <div className="flex flex-col items-center mb-5">
                                     <FaWhatsapp size={48} />
