@@ -1,6 +1,6 @@
 # Next.js app personal DEV Portifolio
 
-Esse repositório é composto pelos arquivos de uma aplicaç˜åo construída em React, utilizando as bibliotecas Next e Tailwind. Vissite o link para ver o deploy(https://camarano-dev-portifolio.vercel.app).
+Esse repositório é composto pelos arquivos de uma aplicação construída em React, utilizando as bibliotecas Next e Tailwind. Vissite o link para ver o deploy(https://camarano-dev-portifolio.vercel.app).
 
 ## Deploy your own
 
