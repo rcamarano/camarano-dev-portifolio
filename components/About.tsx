@@ -18,7 +18,7 @@ export default function AboutMe({ scrollHandler }) {
                             <img
                                 className="rounded-full h-300 object-cover mx-auto mb-6 opacity-90 hover:opacity-100 border-2 border-white shadow-lg w-80"
                                 onClick={handleButtonClick}
-                                src="/images/profilePicture.jpg"
+                                src="/images/rogerio-camarano-dev-html-css-javascript-typescript-angular-react-next-UX-UI-SEO-SEM-2"
                                 alt="Rogério Camarano, fullstack DEV, html, css, javascript, typescript, node.js, React, Next, Tailwind, MySql, Python."
                             />
                         </a>
