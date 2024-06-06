@@ -9,7 +9,10 @@ export default function Footer({ footerRef }) {
       >
         RC - Consultoria Digital
       </a>
-      <a href="window.open('https://www.sitelock.com/verify.php?site=camarano.net','SiteLock','width=600,height=600,left=160,top=170');" target="_blank"><img className="img-fluid" alt="SiteLock" title="SiteLock" src="https://shield.sitelock.com/shield/camarano.net"  /></a>
+      <span>|</span>
+      <a href="window.open('https://www.sitelock.com/verify.php?site=camarano.net','SiteLock','width=600,height=600,left=160,top=170');" target="_blank" rel="noopener noreferrer"
+        className="font-medium text-orange-600" >
+        <img className="img-fluid" alt="SiteLock" title="SiteLock" src="https://shield.sitelock.com/shield/camarano.net" /></a>
     </footer>
   );
 }
